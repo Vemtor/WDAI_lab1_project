@@ -54,6 +54,7 @@ body {
     border-style: solid;
     border-color: rgba(0,0,0, 0.2);
     min-height: 70px;
+
     
     
 }
@@ -186,9 +187,11 @@ body {
     margin-left: 50px;
     margin-right: 100px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr));
     grid-gap: 80px;
     align-items: center;
+    
+
 }
 
 #second-right {
@@ -209,6 +212,7 @@ body {
     border-color:   white;
     border-radius: 2%;
 }
+
 
 .container {
     max-width: 90%;
